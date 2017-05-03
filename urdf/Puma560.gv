@@ -1,0 +1,23 @@
+digraph G {
+node [shape=box];
+"link1" [label="link1"];
+"link2" [label="link2"];
+"link3" [label="link3"];
+"link4" [label="link4"];
+"link5" [label="link5"];
+"link6" [label="link6"];
+"link7" [label="link7"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"link1" -> "j1" [label="xyz: 0 0 0.6718 \nrpy: 1.5708 -0 0"]
+"j1" -> "link2"
+"link2" -> "j2" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"j2" -> "link3"
+"link3" -> "j3" [label="xyz: 0.4318 -0.0203 0.1501 \nrpy: 0 0 -1.5708"]
+"j3" -> "link4"
+"link4" -> "j4" [label="xyz: 0 0 0 \nrpy: 1.5708 -5.71103e-17 1.5708"]
+"j4" -> "link5"
+"link5" -> "j5" [label="xyz: 0 0 0.4331 \nrpy: 1.5708 -0 0"]
+"j5" -> "link6"
+"link6" -> "j6" [label="xyz: 0 0.0558 0 \nrpy: -1.5708 0 0"]
+"j6" -> "link7"
+}
